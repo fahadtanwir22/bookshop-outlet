@@ -1,0 +1,42 @@
+.detail-page{
+    width: 100%;
+}
+.detail-page h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+.detail-page .detail-main{
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+img{
+    width: 250px;
+    height: 300px;
+}
+.favourite-item{
+    margin-left: 20px;
+}
+.favourite-item p span{
+    font-size: 20px;
+    font-weight: 600;
+}
+.favourite-item .fav-icon{
+    display: flex;
+    align-items: center;
+}
+.favourite-item .fav-icon p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.favourite-item .fav-icon svg{
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.red{
+    color: red !important;
+}

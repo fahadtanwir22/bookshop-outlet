@@ -1,0 +1,64 @@
+.wrapper{
+    width: 100%;
+    height: auto;
+    background: #686363;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.wrapper ul{
+    list-style: none;
+    text-align: justify;
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 38px 0px;
+}
+.wrapper ul li{
+    border: none;
+    background: #ccc;
+    outline: none;
+    width: 100%;
+    height: 120px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 7px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper ul li:hover{
+    background-color: #a59b9b;
+    color: #000;
+}
+.wrapper .expandable-btn{
+    align-items: center;
+    text-align: center;
+    width: 230px;
+    height: 66px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: #347C98;
+    color: #fff;
+}
+.wrapper .expandable-btn:hover{
+    background-color: #4e6a74;
+    color: #000;
+}
+.MuiBackdrop-root{
+    background-color: transparent !important;
+}
+/* .makeStyles-paper-2 {
+    width: 100% !important;
+    max-width: 70vw !important;
+    height: 80% !important;
+    border: none !important;
+    padding: 50px;
+    background: ghostwhite;
+} */
